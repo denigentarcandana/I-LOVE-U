@@ -19,13 +19,14 @@ Swal.fire('Hai, Selamat Datang');
 
 function message() {
   document.getElementById('message').style.display = 'block';
+  document.getElementById('msg-whatsapp').style.display = 'block';
   document.getElementById('next').style.display = 'none';
 }
 
-function msgwhatsapp() {
+/*function msgwhatsapp() {
   document.getElementById('msg-whatsapp').style.display = 'block';
   document.getElementById('answer').style.display = 'none';
-}
+}*/
 
 let scrollToBottom = document.querySelector("#scroll-to-bottom")
 let pageBottom = document.querySelector("#message")

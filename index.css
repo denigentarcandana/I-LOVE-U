@@ -55,6 +55,16 @@ textarea {
     color: #ce0404;
 }
 
+.answer {
+  padding: 5px;
+  margin: 15px;
+  width: 90%;
+  color: #707175;
+  outline: none;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
 /*=====> ANIMATION <=====*/
 
 header {
